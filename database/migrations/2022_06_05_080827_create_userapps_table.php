@@ -19,7 +19,7 @@ class CreateUserappsTable extends Migration
             $table->string('password');
             $table->string('nama');
             $table->string('profil')->nullable();
-            $table->email('email')->unique();
+            $table->string('email')->unique();
             $table->string('telepone')->nullable();            
             $table->string('kendaraan')->nullable();            
             $table->boolean('status')->nullable();            
