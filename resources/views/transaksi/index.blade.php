@@ -26,6 +26,8 @@
                     <tr>
                         <th>No</th>
                         <th>Rute</th>
+                        <th>Kendaraan</th>
+                        <th>Golongan</th>
                         <th>Tanggal</th>
                         <th>Waktu</th>
                         <th>Tarif</th>
@@ -36,11 +38,13 @@
                     @foreach ($transactions as $transaksi)
                     <tr >
                         <td class="text-center align-middle">{{$loop->iteration}}</td>
-                        <td class="align-middle">{{$transaksi->id_rute}}</td>
+                        <td class="align-middle">{{$transaksi->rute}}</td>
+                        <td class="text-center align-middle">{{$transaksi->kendaraan}}</td>
+                        <td class="text-center align-middle">{{$transaksi->golongan}}</td>
                         <td class="text-center align-middle">{{$transaksi->tanggal}}</td>
                         <td class="text-center align-middle">{{$transaksi->waktu}}</td>
-                        <td class="text-center align-middle">{{$transaksi->tarif}}</td>
-                        <td class="text-center align-middle">{{$transaksi->id_user}}</td>
+                        <td class="text-center align-middle">Rp. {{$transaksi->tarif}}</td>
+                        <td class="text-center align-middle">{{$transaksi->id}}</td>
                     </tr>           
                     @endforeach                       
                 </tbody>

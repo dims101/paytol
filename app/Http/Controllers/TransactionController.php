@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Transaction;
+use App\ViewTransaksi;
 use Illuminate\Http\Request;
 
 class TransactionController extends Controller
@@ -20,7 +21,7 @@ class TransactionController extends Controller
     
     public function index()
     {
-        $transactions = Transaction::all();
+        $transactions = ViewTransaksi::all();
         return view('transaksi.index',compact('transactions'));
     }
 
@@ -42,7 +43,7 @@ class TransactionController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        
     }
 
     /**

@@ -44,11 +44,11 @@
                         <td class="text-center align-middle">{{$loop->iteration}}</td>
                         <td class="align-middle">{{$route->gate_masuk}}</td>
                         <td class="align-middle">{{$route->gate_keluar}}</td>
-                        <td class="align-middle">{{$route->tarif_golongan_i}}</td>
-                        <td class="align-middle">{{$route->tarif_golongan_ii}}</td>
-                        <td class="align-middle">{{$route->tarif_golongan_iii}}</td>
-                        <td class="align-middle">{{$route->tarif_golongan_iv}}</td>
-                        <td class="align-middle">{{$route->tarif_golongan_v}}</td>
+                        <td class="align-middle">Rp. {{$route->tarif_golongan_i}}</td>
+                        <td class="align-middle">Rp. {{$route->tarif_golongan_ii}}</td>
+                        <td class="align-middle">Rp. {{$route->tarif_golongan_iii}}</td>
+                        <td class="align-middle">Rp. {{$route->tarif_golongan_iv}}</td>
+                        <td class="align-middle">Rp. {{$route->tarif_golongan_v}}</td>
                         <td class="text-center align-middle">
                             <a href="/rute/{{$route->id}}/edit" class="btn btn-sm btn-success"><i class="fas fa-edit"></i> Ubah</a>
                             <form action="/rute/{{$route->id}}" class="d-inline" method="post">

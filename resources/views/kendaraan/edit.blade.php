@@ -20,7 +20,7 @@
                     <input type="text" name="nama" class="form-control" value="{{$vehicle->nama}}">
                 </div>
                 <div class="form-group">
-                    <label for="">Kode Barcode </label>
+                    <label for="">Golongan </label>
                     <input type="text" name="golongan" class="form-control" value="{{$vehicle->golongan}}">
                 </div>         
             <div class="card-footer text-right">

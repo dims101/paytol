@@ -24,7 +24,7 @@
     <!-- Nav Item - Dashboard -->
     <li class="nav-item @if ($activePage == 'gate') active @endif">
         <a class="nav-link" href="/gate">
-            <i class="fas fa-fw fa-list-alt"></i>
+            <i class="fa fa-map-pin"></i>
             <span>Gate</span></a>
     </li>
     <!-- Divider -->
@@ -33,7 +33,7 @@
     <!-- Nav Item - Dashboard -->
     <li class="nav-item @if ($activePage == 'rute') active @endif">
         <a class="nav-link" href="/rute">
-            <i class="fas fa-fw fa-info-circle"></i>
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
             <span>Rute</span></a>
     </li>
         <!-- Divider -->
@@ -50,7 +50,7 @@
     <!-- Nav Item - Dashboard -->
     <li class="nav-item @if ($activePage == 'kendaraan') active @endif">
         <a class="nav-link" href="/kendaraan">
-            <i class="fas fa-fw fa-book"></i>
+            <i class="fa fa-bus"></i>
             <span>Kendaraan</span></a>
     </li>
     <!-- Divider -->
@@ -58,7 +58,7 @@
     <!-- Nav Item - Dashboard -->
     <li class="nav-item @if ($activePage == 'informasi') active @endif">
         <a class="nav-link" href="/informasi">
-            <i class="fas fa-fw fa-cogs"></i>
+            <i class="fa fa-info-circle"></i>
             <span>Informasi</span></a>
     </li>
     <!-- Divider -->
