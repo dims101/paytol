@@ -139,9 +139,11 @@ class ApiController extends Controller
                     ->first();
         $golongan = Vehicle::where('nama',$user->kendaraan)
                     ->pluck('golongan');
+        return $golongan;die;
         $golongan = str_replace('"', "", $golongan);
         $golongan = str_replace('[', "", $golongan);
         $golongan = str_replace(']', "", $golongan);
+
         $rute = Route::select('id','tarif_golongan_'.$golongan)
                     ->where('id_gate_masuk',$request->id_gate_masuk)
                     ->where('id_gate_keluar',$request->id_gate_keluar)
