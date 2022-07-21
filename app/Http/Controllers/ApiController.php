@@ -138,8 +138,8 @@ class ApiController extends Controller
                     ->where('id',$id_user)
                     ->first();
         $golongan = Vehicle::where('nama',$user->kendaraan)
-                    ->pluck('golongan');
-        
+                    ->first();
+        return $golongan->golongan;die;        
         $golongan = str_replace('"', "", $golongan);
         $golongan = str_replace('[', "", $golongan);
         $golongan = str_replace(']', "", $golongan);
