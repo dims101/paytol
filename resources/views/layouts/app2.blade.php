@@ -115,6 +115,10 @@
     <!-- Page level custom scripts -->
     <script src="/js/demo/datatables-demo.js"></script>
 
+    <script src="/vendor/chart.js/Chart.min.js"></script>
+    <!-- <script src="/js/demo/chart-bar-demo.js"></script> -->
+    @include('rumus')
+
 </body>
 
 </html>
