@@ -88,7 +88,7 @@
                             </select>
                         </div>
                         <div class="form-group">
-                            <label for="id_gate_keluar">Gate Masuk</label>
+                            <label for="id_gate_keluar">Gate Keluar</label>
                             <select class="form-control" name="id_gate_keluar" id="id_gate_keluar">
                                 @foreach ($gates as $key => $gate)
                                     <option  value="{{$key}}" {{ ( $key == $selectedID) ? 'selected' : '' }}>{{$gate}}</option>
