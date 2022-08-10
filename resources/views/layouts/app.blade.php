@@ -33,7 +33,7 @@
 
     </style>
 </head>
-<body style="background-image:url('/img/bg.jpg');background-size:cover">
+<body style="background-image:url('/img/new_bg.jpg');background-size:cover">
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light shadow-sm">
             <div class="container">

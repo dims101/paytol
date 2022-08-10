@@ -65,7 +65,7 @@
             }
         </style>
     </head>
-    <body style="background-image:url('/img/bg-blurred.jpg');background-size:cover"> 
+    <body style="background-image:url('/img/new_bg.jpg');background-size:cover"> 
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
